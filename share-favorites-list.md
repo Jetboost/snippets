@@ -2,14 +2,18 @@
 
 We often get asked by customers about how their users can share their favorites list. There are two main methods for how someone might want/need to share their favorites list.
 
-1. Share with the site owners via a Webflow form
-2. Share via email through their own email client with formatted text
+1. [Option 1:](#option-1-share-favorites-via-webflow-form) Share with the site owners via a Webflow form
+2. [Option 2:](#option-2-share-favorites-via-email-client) Share via email through their own email client with formatted text
 
-Each script below will have a CONFIG object. To make things easier for you, the values for each of those options in the CONFIG is the only thing you will have to adjust. You won't need to change any of the code below it if you don't want to or don't have much Javascript experience.
+Each script below will have a CONFIG object. To make things easier for you, the values for each of those options in the CONFIG is the only thing you will have to edit. You won't need to change any of the code below it if you don't want to or don't have much Javascript experience.
 
 <br>
 
-## **Option 1: Share Favorites via Webflow Form**
+## Video Tutorial
+
+<br>
+
+### **Option 1: Share Favorites via Webflow Form**
 You can place this script in the second code block before the `</body>` tag in page settings.
 ```html
 <!-- FAVS FORM SUBMIT -->
@@ -92,7 +96,7 @@ You can place this script in the second code block before the `</body>` tag in p
 <br>
 <br>
 
-## **Option 2: Share Favorites via email client**
+### **Option 2: Share Favorites via email client**
 You can place this script in the first code block in the `</head>` in page settings.
 ```html
 <!-- EMAIL FAVS -->
