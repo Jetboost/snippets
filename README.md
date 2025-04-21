@@ -5,4 +5,4 @@ Welcome to our repository of utility code snippets that you can use to extend fu
 
 ### All Code Snippets
 1. [Share Favorites List](./share-favorites-list.md)
-2. 
+2. [Reinitialize Jetboost](./reinitialize-jetboost.md)
