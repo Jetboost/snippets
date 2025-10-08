@@ -19,7 +19,7 @@ To fix this, you can use the small custom script below that ensures the “no re
 <!-- DYNAMIC NO RESULTS MESSAGE VISIBILITY -->
 <script type="text/javascript">
   window.JetboostListUpdated = function (collectionList) {
-    const noResultsClass = "no-results"
+    const noResultsClass = "no-results-message"
     const collectionContainer = collectionList?.parentElement?.parentElement;
     if (!collectionContainer) return;
 
