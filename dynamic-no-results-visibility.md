@@ -36,6 +36,6 @@ To fix this, you can use the small custom script below that ensures the “no re
 ### How to use:
 1. In Webflow, select your “No Results” element, remove the `jetboost-list-wrapper-empty` class if it exists, and add your own unique class (e.g., `no-results-message`).
 2. Copy the script from this page and paste it into the `</body>` custom code block in your Page Settings.
-3. In the script, find the line `const noResultsClass = "no-results"` and replace `"no-results"` with the custom class you created in step 1.
+3. In the script, find the line `const noResultsClass = "no-results-message"` and replace `"no-results-message"` with the custom class you created in step 1.
 4. Save your page settings.
 5. Publish your site.
