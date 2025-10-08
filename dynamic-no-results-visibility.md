@@ -21,7 +21,7 @@ To fix this, you can use the small custom script below that ensures the “no re
   window.JetboostListUpdated = function (collectionList) {
     const noResultsClass = "no-results"
     const collectionContainer = collectionList?.parentElement?.parentElement;
-    if (!grandparent) return;
+    if (!collectionContainer) return;
 
     const noResultsElem = collectionContainer.querySelector(`.${noResultsClass}`);
     if (!noResultsElem) return;
