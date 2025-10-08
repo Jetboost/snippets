@@ -34,10 +34,9 @@ To fix this, you can use the small custom script below that ensures the “no re
 <br>
 
 ### How to use:
-1. Copy the code
-2. Paste this code in the second custom code block (`</body>` at bottom) in your Page Settings
-3. Replace all the Jetboost no results class names with your own custom class. The class name you’re replacing should look something like this: jetboost-list-wrapper-empty-abcd
-4. Change the `”.no-results”`  (line 7 in the code below) to your own custom class leaving the “.” to denote that it's a class name. For example: grandparent.querySelector(".no-results”); can be changed to grandparent.querySelector(".my-no-results-element”);
-5. Save the page settings
-6. Publish your site
+1. In Webflow, add a unique custom class to your "No Results" element (e.g., `no-results-message`).
+2. Copy the script from this page and paste it into the `</body>` custom code block in your Page Settings.
+3. In the script, find the line `const noResultsClass = "no-results"` and replace `"no-results"` with the custom class you created in step 1.
+4. Save your page settings.
+5. Publish your site.
 
