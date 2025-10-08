@@ -13,4 +13,4 @@ Welcome to our repository of utility code snippets that you can use to extend fu
 <br>
 
 > [!NOTE]
-> Tutorials for all Jetboost snippets will be coming very soon. For now, feel free to reach out to our support team at if you have any questions or suggestions.
+> Tutorials for all Jetboost snippets will be coming very soon. For now, feel free to reach out to our support team if you have any questions or suggestions.
