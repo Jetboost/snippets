@@ -16,7 +16,7 @@ To fix this, you can use the small custom script below that ensures the “no re
 
 ### Script
 ```html
-<!-- DYAMIC NO RESULTS MESSAGE VISIBILITY -->
+<!-- DYNAMIC NO RESULTS MESSAGE VISIBILITY -->
 <script type="text/javascript">
   window.JetboostListUpdated = function (collectionList) {
     const noResultsClass = "no-results"
