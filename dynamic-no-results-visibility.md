@@ -20,10 +20,10 @@ To fix this, you can use the small custom script below that ensures the “no re
 <script type="text/javascript">
   window.JetboostListUpdated = function (collectionList) {
     const noResultsClass = "no-results"
-    const grandparent = collectionList?.parentElement?.parentElement;
+    const collectionContainer = collectionList?.parentElement?.parentElement;
     if (!grandparent) return;
 
-    const noResultsElem = grandparent.querySelector(`.${noResultsClass}`);
+    const noResultsElem = collectionContainer.querySelector(`.${noResultsClass}`);
     if (!noResultsElem) return;
 
     noResultsElem.style.display = (collectionList.children.length === 0) ? "block" : "none";
