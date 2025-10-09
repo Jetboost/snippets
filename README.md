@@ -8,8 +8,9 @@ Welcome to our repository of utility code snippets that you can use to extend fu
 2. [Reinitialize Jetboost](./reinitialize-jetboost.md)
 3. [Run Code After Collection List Updates](./jetboostlistupdated.md)
 4. [Scroll To Top After Pagination](./scroll-to-top.md)
+5. [Dynamic No Results Message Visibility](./dynamic-no-results-visibility.md)
 
 <br>
 
 > [!NOTE]
-> Tutorials for all Jetboost snippets will be coming very soon. For now, feel free to reach out to our support team at if you have any questions or suggestions.
+> Tutorials for all Jetboost snippets will be coming very soon. For now, feel free to reach out to our support team if you have any questions or suggestions.
