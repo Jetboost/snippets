@@ -121,6 +121,7 @@ Once you have updated the configuration variables, the script will automatically
 
 		filterForm.addEventListener('submit', function (event) {
 			event.preventDefault()
+			event.stopPropagation()
 
 			const queryString = window.location.search
 
